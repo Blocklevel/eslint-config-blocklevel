@@ -11,3 +11,13 @@ A set of ESLint (http://eslint.org) rules
   ...
 }
 ```
+
+or in the webpack configuration
+
+```js
+{
+  eslint: {
+    configFile: require.resolve('eslint-config-blocklevel')
+  }
+}
+```
